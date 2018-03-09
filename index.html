@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chess Collector</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+  <h1>Chess Collector</h1>
+  </header>
+
+    <div class="score-board">
+      <div class="badge" id="random-label">Random#</div>
+      <div class="badge" id="score-label">Score</div>
+      <span id="random-score">0</span>:<span id="user-score">0</span>
+
+    </div>
+    
+    <div class="score-board">
+      <div class="badge" id="user-label">wins</div>
+      <div class="badge" id="computer-label">losses</div>
+      <span id="win">0</span>:<span id="loss">0</span>
+
+    </div>
+
+    <div class="result">
+      <p></p>
+    </div>
+
+    <div class="choices">
+      
+      <div class="choice" id="r">
+        <i class="fas fa-chess-rook" style="font-size: 70px; color:black;"></i>
+      </div>
+        
+      <div class="choice" id="q">
+        <i class="fas fa-chess-queen" style="font-size: 70px; color:black;"></i>
+      </div>
+    
+      <div class="choice" id="p">
+        <i class="fas fa-chess-pawn" style="font-size: 70px; color:black;"></i>
+      </div>
+
+      <div class="choice" id="k">
+        <i class="fas fa-chess-knight" style="font-size: 70px; color:black;"></i>
+      </div>
+    
+  </div>
+  <p id="action-message">Instructions</p>
+  <ul id="instructions">
+    <li>You will be given a random number at the start of the game.</li>
+    <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+    <li>You win the game by matching your total score to random number, you lose the game if your total score goes above random number.</li>
+    <li>The value of each crystal is hidden until clicked.</li>
+    <li>Each time when the game starts, the game will change the values of each crystal.</li>
+  </ul>
+
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
