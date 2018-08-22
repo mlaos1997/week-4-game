@@ -1,3 +1,14 @@
-# week-4-game
+JQuery Chess Collector
 
-This app was created using Javascript and JQuery. Rules are listed on the deployed version!
+
+To run locally:
+
+Right click on index.html file, then select open in browser.
+
+Built With:
+
+HTML
+
+Javascript
+
+JQuery
